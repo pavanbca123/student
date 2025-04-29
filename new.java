@@ -11,7 +11,7 @@ public class New {
     }
 
     public static void main(String[] args) {
-        Student student = new Student("Chetan", "2004-05-27");
+        Student4 student = new Student4("Chetan", "2004-05-27");
         student.displayStudentInfo();
 
         StudentCourses sc = new StudentCourses();
