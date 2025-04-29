@@ -1,5 +1,5 @@
 package Branch.branch.Demojenkins;  
-public class new {
+public class New {
     public void displayCourses() {
         System.out.println("Semester 1:");
         System.out.println("  Course: Math - Marks: 85");
