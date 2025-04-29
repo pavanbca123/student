@@ -1,21 +1,27 @@
-package Branch.branch.Demojenkins;  
 public class new {
-    public void displayCourses() {
-        System.out.println("Semester 1:");
-        System.out.println("  Course: Math - Marks: 85");
-        System.out.println("  Course: English - Marks: 90");
-
-        System.out.println("Semester 2:");
-        System.out.println("  Course: Physics - Marks: 80");
-        System.out.println("  Course: Chemistry - Marks: 88");
-    }
 
     public static void main(String[] args) {
-        Student4 student = new Student4("Chetan", "2004-05-27");
-        student.details();
+        // Hardcoded student course details
+        String studentName = "John Doe";
+        String course1 = "Mathematics";
+        String course2 = "English";
+        String course3 = "Physics";
+        String course4 = "Chemistry";
+       
+        // Marks for each course
+        int marks1 = 85;
+        int marks2 = 90;
+        int marks3 = 80;
+        int marks4 = 88;
 
-        new sc = new New();
-        sc.displayCourses();
+        // Display student name
+        System.out.println("Student Name: " + studentName);
+        System.out.println("Course Details:");
+
+        // Display each course and marks
+        System.out.println(course1 + " - Marks: " + marks1);
+        System.out.println(course2 + " - Marks: " + marks2);
+        System.out.println(course3 + " - Marks: " + marks3);
+        System.out.println(course4 + " - Marks: " + marks4);
     }
 }
-
