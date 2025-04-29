@@ -14,7 +14,7 @@ public class New {
         Student4 student = new Student4("Chetan", "2004-05-27");
         student.displayStudentInfo();
 
-        StudentCourses sc = new StudentCourses();
+        New sc = new New();
         sc.displayCourses();
     }
 }
