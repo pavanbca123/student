@@ -1,5 +1,5 @@
 package Branch.branch.Demojenkins;  
-public class New {
+public class new {
     public void displayCourses() {
         System.out.println("Semester 1:");
         System.out.println("  Course: Math - Marks: 85");
@@ -14,7 +14,7 @@ public class New {
         Student4 student = new Student4("Chetan", "2004-05-27");
         student.details();
 
-        New sc = new New();
+        new sc = new New();
         sc.displayCourses();
     }
 }
